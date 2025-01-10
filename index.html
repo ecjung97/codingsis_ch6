@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      rel="icon"
+      href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png"
+    />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- sidebar -->
+    <div class="sidebar">
+      <a href="#"><img src="./resources/spotifyLogo.svg" class="logo" /></a>
+      <div class="Cont">
+        <a href="#" class="homeBtn">
+          <div class="imgM">
+            <img src="./resources/home.svg" class="homeIcon firstContimg" />
+          </div>
+          Home
+        </a>
+
+        <a href="#" class="searchBtn">
+          <div class="imgM">
+            <img src="./resources/search.svg" class="search" />
+          </div>
+          Search
+        </a>
+
+        <a href="#" class="yourLibrary">
+          <div class="imgM">
+            <img src="./resources/library.svg" class="search" />
+          </div>
+          Your Library
+        </a>
+      </div>
+
+      <div class="Cont">
+        <a href="#">
+          <div class="imgM">
+            <img
+              src="./resources/plus-small.svg"
+              class="plus-small secondContimg"
+            />
+          </div>
+          Create Playlist
+        </a>
+
+        <a href="#" class="searchBtn">
+          <div class="imgM">
+            <img
+              src="./resources/likedSongs.svg"
+              class="likedSongs secondContimg"
+            />
+          </div>
+          Liked Songs
+        </a>
+
+        <a href="#" class="yourLibrary">
+          <div class="podcast secondContimg imgM">
+            <img src="./resources/podcast.svg" class="podcastimg" />
+          </div>
+          Your Episodes
+        </a>
+      </div>
+
+      <div class="Cont">
+        <p>FAV</p>
+        <p>Daily Mix 1</p>
+        <p>Discover Weekly</p>
+        <p>Malayalam</p>
+        <p>Dance / Electronic Mix</p>
+        <p>EDM / Popular</p>
+      </div>
+    </div>
+    <!-- sidebar -->
+
+    <!-- main body -->
+    <div class="mainBody">
+      <div class="top">
+        <div class="left-right">
+          <button><img src="./resources/left.svg" /></button>
+          <button><img src="./resources/right.svg" /></button>
+        </div>
+        <div class="user">
+          <div class="userImg">
+            <img src="./resources/profile.jpg" class="profile" />
+          </div>
+          <span>pete.j97</span>
+          <img src="./resources/caret-down.svg" class="caret-down" />
+        </div>
+      </div>
+
+      <h1 class="heading">인기 아티스트</h1>
+      <a class="all">모두 표시</a>
+      <div class="artist">
+        <div class="tile">
+          <img src="./resources/artists/rose.jpg" />
+          <div class="text">
+            <span class="artistName">ROSÉ</span>
+            <span class="category">아티스트</span>
+          </div>
+          <!-- <button class="playBtn"><i class="fa-solid fa-play"></i></button> -->
+        </div>
+
+        <div class="tile">
+          <img src="./resources/artists/aespa.jpg" />
+          <div class="text">
+            <span class="artistName">aespa</span>
+            <span class="category">아티스트</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/artists/newjeans.jpg" />
+          <div class="text">
+            <span class="artistName">NewJeans</span>
+            <span class="category">아티스트</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/artists/g-dragon.png" />
+          <div class="text">
+            <span class="artistName">G-DRAGON</span>
+            <span class="category">아티스트</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/artists/day6.jpg" />
+          <div class="text">
+            <span class="artistName">DAY6</span>
+            <span class="category">아티스트</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/artists/bigbang.jpg" />
+          <div class="text">
+            <span class="artistName">BIGBANG</span>
+            <span class="category">아티스트</span>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="heading">인기 앨범 및 싱글</h1>
+      <a class="all">모두 표시</a>
+      <div class="artist">
+        <div class="tile">
+          <img src="./resources/albums/MUSE.jpg" class="albumCover" />
+          <div class="text">
+            <span class="artistName">MUSE</span>
+            <span class="category">지민</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/albums/GOLDEN.jpg" class="albumCover" />
+          <div class="text">
+            <span class="artistName">GOLDEN</span>
+            <span class="category">정국</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/albums/IMHERO.jpg" class="albumCover" />
+          <div class="text">
+            <span class="artistName">IM HERO</span>
+            <span class="category">임영웅</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/albums/rose.jpg" class="albumCover" />
+          <div class="text">
+            <span class="artistName">rosie</span>
+            <span class="category">ROSÉ</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/albums/HAPPY.jpg" class="albumCover" />
+          <div class="text">
+            <span class="artistName">HAPPY</span>
+            <span class="category">진</span>
+          </div>
+        </div>
+
+        <div class="tile">
+          <img src="./resources/albums/asterum.jpg" class="albumCover" />
+          <div class="text">
+            <span class="artistName">ASTERUM : 134-1</span>
+            <span class="category">PLAVE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main body -->
+
+    <!-- player -->
+    <div class="music">
+      <div class="upper">
+        <div class="playerInfo">
+          <img src="./resources/albums/rose.jpg" class="playerImg" />
+          <div class="playertext">
+            <span class="artistName">toxic till the end</span>
+            <span class="category">ROSÉ</span>
+          </div>
+          <img src="./resources/heart.svg" class="heart" />
+        </div>
+        <div class="player">
+          <div class="top">
+            <img src="./resources/playerIcons/shuffle.svg" />
+            <img src="./resources/playerIcons/previous.svg" />
+            <img src="./resources/playerIcons/play.svg" />
+            <img src="./resources/playerIcons/next.svg" />
+            <img src="./resources/playerIcons/repeat.svg" />
+          </div>
+          <div class="bottom">
+            <div class="bar">
+              <span class="category bartext">2:11</span>
+              <div class="barOne"></div>
+              <span class="category bartext">2:37</span>
+            </div>
+          </div>
+        </div>
+        <div class="rightOptions">
+          <img src="./resources/rightOptions/mic.svg" />
+          <img src="./resources/rightOptions/queue.svg" />
+          <img src="./resources/rightOptions/laptop.svg" />
+          <img src="./resources/rightOptions/speaker.svg" />
+          <div class="barVolume"></div>
+          <img src="./resources/rightOptions/arrow.svg" />
+        </div>
+      </div>
+      <div class="lower">
+        <div class="innerlower">
+          <img src="./resources/speakerblack.svg" />
+          <span>Listening on MacBook Pro</span>
+        </div>
+        <div class="vector"></div>
+      </div>
+    </div>
+  </body>
+</html>
