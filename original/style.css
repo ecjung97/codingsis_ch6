@@ -21,6 +21,9 @@ nav {
   padding: 28px 17px;
   font-weight: 700;
 }
+.logo {
+  cursor: pointer;
+}
 main {
   height: 968px;
   background-color: rgb(41, 65, 171);

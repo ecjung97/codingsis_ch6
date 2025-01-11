@@ -53,6 +53,9 @@ body {
     background: #282828;
   }
 }
+.original {
+  margin-left: 20px;
+}
 .podcast {
   display: flex;
   justify-content: center;
@@ -192,6 +195,7 @@ p {
       justify-content: space-around;
       width: 170px;
       height: 230px;
+      position: relative;
       img {
         width: 150px;
         height: 150px;
@@ -202,28 +206,31 @@ p {
       .albumCover {
         border-radius: 6px;
       }
+      &:hover .playBtn {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      &:active .playBtn {
+        transform: scale(1.1);
+      }
     }
     &:hover {
       cursor: pointer;
     }
-    &:hover .playBtn {
-      transform: translateY(0);
-      opacity: 1;
-    }
-    /* .playBtn {
+    .playBtn {
       width: 50px;
       height: 50px;
       background: #1ed760;
       border-radius: 50%;
       border: none;
       position: absolute;
-      left: 440px;
-      bottom: 380px;
       transform: translateY(5px);
       opacity: 0;
       transition: opacity 0.3s, transform 0.3s;
       cursor: pointer;
-    } */
+      left: 120px;
+      top: 120px;
+    }
   }
 }
 .text {
@@ -321,18 +328,31 @@ p {
         }
       }
     }
-    .bar {
+    .time {
       display: flex;
       align-items: center;
-      .bartext {
-        margin: 8px;
+      gap: 10px;
+      .current-time,
+      .duration {
+        color: #b3b3b3;
         font-size: 12px;
       }
-      .barOne {
+      .progress-bar {
         width: 500px;
         height: 5px;
         background: #535353;
         border-radius: 500px;
+        position: relative;
+      }
+      .progress {
+        width: 58%;
+        height: 100%;
+        background: #1ed760;
+        border-radius: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: width 0.3s;
       }
     }
   }
@@ -346,6 +366,17 @@ p {
       height: 5px;
       background: #535353;
       border-radius: 500px;
+      position: relative;
+      .currentVolume {
+        width: 58%;
+        height: 100%;
+        background: #1ed760;
+        border-radius: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: width 0.3s;
+      }
     }
     img {
       cursor: pointer;

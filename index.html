@@ -17,7 +17,9 @@
   <body>
     <!-- sidebar -->
     <nav class="sidebar">
-      <a href="#"><img src="../resources/spotifyLogo.svg" class="logo" /></a>
+      <a href="./original/index.html"
+        ><img src="../resources/spotifyLogo.svg" class="logo"
+      /></a>
       <div class="Cont">
         <a href="#" class="homeBtn">
           <div class="imgM">
@@ -71,6 +73,12 @@
       </div>
 
       <div class="Cont">
+        <a href="./original/index.html" class="homeBtn"
+          ><span class="original">원본 과제 보기</span></a
+        >
+      </div>
+
+      <div class="Cont">
         <p>FAV</p>
         <p>Daily Mix 1</p>
         <p>Discover Weekly</p>
@@ -106,7 +114,7 @@
             <span class="artistName">ROSÉ</span>
             <span class="category">아티스트</span>
           </div>
-          <!-- <button class="playBtn"><i class="fa-solid fa-play"></i></button> -->
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -115,6 +123,7 @@
             <span class="artistName">aespa</span>
             <span class="category">아티스트</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -123,6 +132,7 @@
             <span class="artistName">NewJeans</span>
             <span class="category">아티스트</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -131,6 +141,7 @@
             <span class="artistName">G-DRAGON</span>
             <span class="category">아티스트</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -139,6 +150,7 @@
             <span class="artistName">DAY6</span>
             <span class="category">아티스트</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -147,6 +159,7 @@
             <span class="artistName">BIGBANG</span>
             <span class="category">아티스트</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
       </div>
 
@@ -159,6 +172,7 @@
             <span class="artistName">MUSE</span>
             <span class="category">지민</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -167,6 +181,7 @@
             <span class="artistName">GOLDEN</span>
             <span class="category">정국</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -175,6 +190,7 @@
             <span class="artistName">IM HERO</span>
             <span class="category">임영웅</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -183,6 +199,7 @@
             <span class="artistName">rosie</span>
             <span class="category">ROSÉ</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -191,6 +208,7 @@
             <span class="artistName">HAPPY</span>
             <span class="category">진</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
 
         <div class="tile">
@@ -199,6 +217,7 @@
             <span class="artistName">ASTERUM : 134-1</span>
             <span class="category">PLAVE</span>
           </div>
+          <button class="playBtn"><i class="fa-solid fa-play"></i></button>
         </div>
       </div>
     </div>
@@ -224,10 +243,12 @@
             <img src="../resources/playerIcons/repeat.svg" />
           </div>
           <div class="bottom">
-            <div class="bar">
-              <span class="category bartext">2:11</span>
-              <div class="barOne"></div>
-              <span class="category bartext">2:37</span>
+            <div class="time">
+              <span class="category current-time">2:11</span>
+              <div class="progress-bar">
+                <div class="progress"></div>
+              </div>
+              <span class="category duration">2:37</span>
             </div>
           </div>
         </div>
@@ -236,7 +257,9 @@
           <img src="../resources/rightOptions/queue.svg" />
           <img src="../resources/rightOptions/laptop.svg" />
           <img src="../resources/rightOptions/speaker.svg" />
-          <div class="barVolume"></div>
+          <div class="barVolume">
+            <div class="currentVolume"></div>
+          </div>
           <img src="../resources/rightOptions/arrow.svg" />
         </div>
       </div>
